@@ -1,4 +1,4 @@
-package amith;
+
 
 import java.util.Scanner;
 
