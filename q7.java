@@ -3,10 +3,10 @@ import java.lang.Math;
 class Triangle
 {
 	
-	double area(int a,int b,int c)
+	double area(double a,double b,double c)
 	{
-		float s=(a+b+c)/2;
-		float a1=s*(s-a)*(s-b)*(s-c);
+		double s=(a+b+c)/2;
+		double a1=s*(s-a)*(s-b)*(s-c);
 		double area=Math.pow(a1,0.5);
 		return area;
 	}
